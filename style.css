@@ -167,7 +167,6 @@ a {
 }
 /*#endregion */
 
-
 /*#region Fourth Section */
 
 .fourth-div {
@@ -205,5 +204,14 @@ a {
 /*#endregion */
 
 /*#region Footer */
+.footer{
+    margin: 0;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
 
+}
 /*#endregion */
