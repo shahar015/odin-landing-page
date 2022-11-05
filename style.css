@@ -17,6 +17,7 @@ body {
 
 .content {
     width: 1000px;
+    flex-direction: column;
     display: flex;
 }
 
@@ -28,7 +29,6 @@ body {
     
 }
 .top-div .content {
-    flex-direction: column;
     color: white;
 }
 
@@ -105,10 +105,6 @@ a {
 
 /*#region Second Section */
 
-.sec-div .content{
-    flex-direction: column;
-}
-
 .sec-div #title{
     font-size: 36px;
     font-weight: bolder;
@@ -143,6 +139,27 @@ a {
 
 /*#region Third Section */
 
+.third-div {
+    background-color: #e5e7eb;
+}
+
+.third-div .content{
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+}
+
+.third-div .credit{
+    margin-top: -10px;
+    align-self: flex-end;
+}
 /*#endregion */
 
 
