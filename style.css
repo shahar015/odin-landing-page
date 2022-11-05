@@ -1,3 +1,5 @@
+/*#region Universal */
+
 body {
     height: 100%;
     width: 100%;
@@ -9,7 +11,7 @@ body {
 .section {
     width: 100%;
     margin: 0;
-    height: 450px;
+    height: 550px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -21,6 +23,15 @@ body {
     display: flex;
 }
 
+button {
+    border-radius: 20px;
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+}
+/*#endregion */
 
 /*#region Top Section */
 .top-div{
@@ -73,13 +84,7 @@ body {
 }
 
 .hero .content button {
-    border-radius: 20px;
-    background-color: #3882f6;
     border: transparent;
-    color: white;
-    height: 30px;
-    width: 100px;
-    font-size: 16px;
 }
 
 .hero .content img {
@@ -164,6 +169,38 @@ a {
 
 
 /*#region Fourth Section */
+
+.fourth-div {
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-div .content {
+    border-radius: 20px;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    height: 150px;
+}
+.fourth-div .content p {
+    margin: 0;
+}
+
+.fourth-div .content .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fourth-div .content .subtitle {
+    font-size: 18px;
+}
+
+.fourth-div .content button {
+    border:1px solid white;
+}
+
 
 /*#endregion */
 
